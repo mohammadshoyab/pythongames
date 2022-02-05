@@ -4,6 +4,7 @@ import turtle
 import random
 import math
 
+#setting screen 
 sc=turtle.Screen()
 sc.bgcolor('grey')
 sc.tracer(2)
