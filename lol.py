@@ -1,8 +1,11 @@
+#this is a turtle game tring to eat some food
+
 import turtle
 import random
 import math
 import time
 
+#setting screen
 sc=turtle.Screen()
 sc.bgcolor('grey')
 sc.tracer(1.8)
@@ -20,12 +23,16 @@ for i in range(4):
 
 bon.hideturtle()
 
+# creating food
+
 goal=turtle.Turtle()
 goal.color('yellow')
 goal.shape('circle')
 goal.penup()
 goal.setpos(random.randint(-300,300),random.randint(-300,300))
 
+
+#creating a player
 
 player=turtle.Turtle()
 player.color("green")
