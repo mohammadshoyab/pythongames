@@ -1,5 +1,8 @@
+#This is an indian flag made with turtle 
+
 import turtle
 
+# making orange block
 turtle.pensize(3)
 turtle.fillcolor("orange")
 turtle.begin_fill()
@@ -12,6 +15,7 @@ turtle.left(90)
 turtle.forward(100)
 turtle.end_fill()
 
+# making white block
 turtle.fillcolor("white")
 turtle.begin_fill()
 turtle.left(90)
@@ -23,6 +27,9 @@ turtle.forward(300)
 turtle.right(90)
 turtle.forward(100)
 turtle.end_fill()
+
+
+# making green block
 
 turtle.goto(0,-100)
 turtle.fillcolor("light green")
@@ -36,6 +43,8 @@ turtle.forward(300)
 turtle.right(90)
 turtle.forward(100)
 turtle.end_fill()
+
+#ashoka chakra
 
 turtle.up()
 turtle.goto(200,-50)
